@@ -7,7 +7,7 @@ Você verá uma mensagem igual à abaixo quando usando estes certificados:
 Isso acontece pois o certificado que gerei, foi atrelado ao meu usuário. Mas não se preocupe, você pode clicar em avançado no browser e prosseguir para à aplicação.
 
 ## Você pode também gerar sua própria chave se necessário.
-
+> Obs.: Remember that if you're using WSL2, you'll need to generate the certificate on Windows and not on Ubuntu...
 - Para gerar sua própria chave você precisa: 
     - Instalar o [MKCert](https://github.com/FiloSottile/mkcert)
 
