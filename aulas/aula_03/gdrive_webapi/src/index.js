@@ -23,7 +23,7 @@ const io = new Server(server, {
     credentials: false
   }
 })
-
+routes.setSocketInstance(io)
 io.on("connection", (socket => logger.info(`Someone connected: ${socket.id}`)))
 
 const startServer = () => {
