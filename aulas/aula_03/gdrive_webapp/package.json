@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx http-server public",
-    "dev": "npx http-server public --cert certificates/cert.pem --key certificates/key.pem --ssl -o"
+    "dev": "npx http-server public --cert certificates/cert.pem --key certificates/key.pem --ssl -o -a localhost --port 4000 -c-1"
   },
   "keywords": [],
   "author": "erickwendel",
