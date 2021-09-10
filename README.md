@@ -23,7 +23,7 @@ Marque esse projeto com uma estrela 🌟
     - [x] Deve permitir fazer upload de arquivos de qualquer tamanho
     - [x] Deve ter função de upload via botão
     - [x] Deve exibir progresso de upload 
-    - [] Deve ter função de upload via drag and drop
+    - [x] Deve ter função de upload via drag and drop
 
 
 
